@@ -1,8 +1,9 @@
 describe('RandomWord', function(){
   it("randomly pick a word from an array", function(){
-    var testRandomWord = new RandomWord();
-    // expect(testRandomWord.list).to.be.a('string');
-    expect(testRandomWord).to.be.a('array');
+    var testHangMan = new HangMan();
+    testHangMan.word = "cat";
+    expect(testHandMan.word).to.equal('cat');
+    expect(testHandMan.score).to.equal('cat');
   });
 
   it("creates another array of underscores, based on number of characters in word", function() {
